@@ -1,0 +1,87 @@
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="ladybizru.ru" resolutions="1x" timestamp="1492367248658">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_______-a.css" crc="3865028533" ref="index"/>
+    <file name="index.css" crc="313257252" ref="index"/>
+    <file name="iefonts_index.css" crc="21068441" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4148063285" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="172512987" ref="index"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index"/>
+    <file name="require.js" crc="4159430777" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="logoheder.png" crc="4007438444" seo="true" ref="index"/>
+    <file name="telephone-auricular-with-cable-u185012f04.png" crc="4270906208" seo="true" ref="index"/>
+    <file name="1.png" crc="451205900" ref="index"/>
+    <file name="checked18-u22013d651.png" crc="3908205221" seo="true" ref="index"/>
+    <file name="arrow_74-u3619-u178726e8d.png" crc="83845936" seo="true" ref="index"/>
+    <file name="1450378991businessmen1801abdc.png" crc="250522875" seo="true" ref="index"/>
+    <file name="1450378994businessmen1802e890.png" crc="4095941219" seo="true" ref="index"/>
+    <file name="1450379000businessmen1804b17f.png" crc="99392670" seo="true" ref="index"/>
+    <file name="1450378997businessmen1803d983.png" crc="262848483" seo="true" ref="index"/>
+    <file name="72dpi-tp-1473-g5.jpg" crc="3805971039" ref="index"/>
+    <file name="2.png" crc="6227432" ref="index"/>
+    <file name="4.png" crc="4094942212" ref="index"/>
+    <file name="checked18-u17819297b.png" crc="3870306428" seo="true" ref="index"/>
+    <file name="3.jpg" crc="424295219" ref="index"/>
+    <file name="contact1cfd1.png" crc="3903115701" seo="true" ref="index"/>
+    <file name="contact2c1f9.png" crc="4276737175" seo="true" ref="index"/>
+    <file name="contact43021.png" crc="4165788819" seo="true" ref="index"/>
+    <file name="--4.png" crc="4122993955" seo="true" ref="index"/>
+    <file name="3.png" crc="333600649" seo="true" ref="index"/>
+    <file name="--2.png" crc="3798774272" seo="true" ref="index"/>
+    <file name="--7.png" crc="248186956" seo="true" ref="index"/>
+    <file name="--1.png" crc="93802915" seo="true" ref="index"/>
+    <file name="--5.png" crc="3999242265" seo="true" ref="index"/>
+    <file name="strelka.png" crc="4057834995" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="roscap.jpg" crc="4060481976" seo="true" ref="index"/>
+    <file name="vbank.jpg" crc="4016554456" seo="true" ref="index"/>
+    <file name="akbars.jpg" crc="326252562" seo="true" ref="index"/>
+    <file name="bank-mia.jpg" crc="409296970" seo="true" ref="index"/>
+    <file name="citi.jpg" crc="4228664821" seo="true" ref="index"/>
+    <file name="evroplan.jpg" crc="4042986120" seo="true" ref="index"/>
+    <file name="finstandart.jpg" crc="218838851" seo="true" ref="index"/>
+    <file name="gazprombank.jpg" crc="4120256649" seo="true" ref="index"/>
+    <file name="alfa.jpg" crc="248754228" seo="true" ref="index"/>
+    <file name="bm.jpg" crc="258836397" seo="true" ref="index"/>
+    <file name="deal-bank.jpg" crc="502151165" seo="true" ref="index"/>
+    <file name="home.jpg" crc="4250041775" seo="true" ref="index"/>
+    <file name="eab49b6373.jpg" crc="394805430" seo="true" ref="index"/>
+    <file name="promsvyazbank.jpg" crc="250274967" seo="true" ref="index"/>
+    <file name="sberbank1.jpg" crc="172126192" seo="true" ref="index"/>
+    <file name="globex.jpg" crc="479201084" seo="true" ref="index"/>
+    <file name="rosbank.jpg" crc="276296266" seo="true" ref="index"/>
+    <file name="nordea.jpg" crc="226574421" seo="true" ref="index"/>
+    <file name="logo-absolyut1.jpg" crc="3827089064" seo="true" ref="index"/>
+    <file name="logo-transportny-y.jpg" crc="4216479662" seo="true" ref="index"/>
+    <file name="keb.jpg" crc="3986223603" seo="true" ref="index"/>
+    <file name="troykadbank.jpg" crc="520324632" seo="true" ref="index"/>
+    <file name="spb.jpg" crc="3941514990" seo="true" ref="index"/>
+    <file name="tfb.jpg" crc="458020391" seo="true" ref="index"/>
+    <file name="tkb1.jpg" crc="4071160560" seo="true" ref="index"/>
+    <file name="logofuter.png" crc="75703812" seo="true" ref="index"/>
+    <file name="rosenergo.jpg" crc="97264905" seo="true" ref="index"/>
+    <file name="zenit.jpg" crc="4283388757" seo="true" ref="index"/>
+    <file name="trust.jpg" crc="590102" seo="true" ref="index"/>
+    <file name="vtb.jpg" crc="15124377" seo="true" ref="index"/>
+    <file name="uralsib.jpg" crc="4178495413" seo="true" ref="index"/>
+    <file name="loko.jpg" crc="6188098" seo="true" ref="index"/>
+    <file name="opt.jpg" crc="4012601025" seo="true" ref="index"/>
+    <file name="bzf.jpg" crc="3772551543" seo="true" ref="index"/>
+    <file name="brs.png" crc="4223740753" seo="true" ref="index"/>
+    <file name="raiffeisenbank.png" crc="4192764043" seo="true" ref="index"/>
+    <file name="unicredit.png" crc="3791320887" seo="true" ref="index"/>
+    <file name="binbank.png" crc="4182617125" seo="true" ref="index"/>
+    <file name="vtb24.png" crc="386610618" seo="true" ref="index"/>
+    <file name="logo_bordo-obemny-y_rus-goriz-1.png" crc="4212043277" seo="true" ref="index"/>
+    <file name="mts.png" crc="261124199" seo="true" ref="index"/>
+    <file name="open.png" crc="3801310499" seo="true" ref="index"/>
+    <file name="шаблон-a-favicon.ico" crc="3941071187" ref="index"/>
+  </folder>
+  <file name="index.html" crc="276366102" seo="true" mt="1492367221357" redirect="true"/>
+</manifest>
