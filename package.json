@@ -1,0 +1,25 @@
+{
+  "name": "axcredit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chernyshovmaksim/axcredit.git"
+  },
+  "author": "chernyshov maksim <chernyshovmaksim92@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chernyshovmaksim/axcredit/issues"
+  },
+  "homepage": "https://github.com/chernyshovmaksim/axcredit#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-less": "^3.3.0"
+  }
+}
