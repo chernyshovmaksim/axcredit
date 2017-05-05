@@ -1,4 +1,4 @@
-@media screen and (max-width: 360px){
+@media (min-width: 320px) and (max-width: 568px){
 	#sec1{
 		background-image: none !important;
 		padding-bottom: 3rem;
@@ -11,10 +11,16 @@
 		align-items: center;
 	}
 	#sec2 div.body.container-960 div.item{
-		width: 100%;
+		width: 85% !important;
 	}
 	#sec3 div.container-960 div.workers div.worker{
-		width: 100%;
+		width: 85% !important;
+	}
+	#sec2 div.body.container-960 div.item div.container div.title{
+		font-size: 18px;
+	}
+	#sec2 div.body.container-960 div.item div.container div.description ul li{
+		font-size: 14px;
 	}
 	#sec4 div.bg{
 		background-image: none !important;
@@ -50,28 +56,56 @@
 	#footer div.container-960 div.phone{
 		display: none;
 	}
-}
-@media screen and (max-width: 768px){
-	#sec1 div.container-1120 div.container-960.info1 div.text h3{
-		font-size: 18px;
+	#sec2 div.header.container-960{
+		font-size: 25px;
 	}
-	#sec1 div.container-1120 div.container-960.info1 div.text ul li{
-		font-size: 14px;
+	#sec3 div.container-960 div.title{
+		font-size: 25px;
+	}
+	#sec7 div.container-960 div.title{
+		font-size: 25px;
+	}
+	#sec1 div.container-1120 div.container-960.info1 div.button{
+		width: 100%;
+	}
+}
+@media (min-width: 568px) and (max-width: 768px){
+	#sec2 div.body.container-960 div.item{
+		width: 95% !important;
 	}
 	#sec3 div.container-960 div.workers div.worker{
-		width: 45%;
+		width: 95% !important;
 	}
-	#sec5 div.container-960 div.title{
-		font-size: 22px;
+	#sec4 div.bg{
+		background-image: none !important;
+		min-height: auto !important;
+		padding-bottom: 3rem;
+	}
+	#sec4 div.bg div.container-960 div.requiest{
+		width: 100%;
+	}
+	#sec4 div.bg div.container-960 div.requiest div.arrow{
+		display: none;
+	}
+	#sec5{
+		background-image: none !important;
 	}
 	#sec5 div.container-960 div.list ul li{
-		font-size: 18px;
+		font-size: 14px !important;
 	}
-	#footer div.container-960{
-		justify-content: space-around !important;
+	#sec8 div.bg{
+		background-image: none !important;
+		min-height: auto !important;
+		padding-bottom: 3rem;
 	}
-	#footer div.container-960 div.phone{
+	#sec8 div.bg div.container-960 div.requiest div.arrow{
 		display: none;
+	}
+	#sec8 div.bg div.container-960{
+		flex-direction: column;
+	}
+	#sec8 div.bg div.container-960 div.requiest{
+		width: 100%;
 	}
 }
 @media screen and (max-width: 800px){
