@@ -8,8 +8,7 @@ gulp.task('less', function(){
 	return gulp.src('less/main.less')
 	.pipe(less())
 	.pipe(autoprefixer())
-	.pipe(csso())
-	// .pipe(cleanCSS())
+	.pipe(cleanCSS({compatibility: 'ie8'}))
 	.pipe(gulp.dest('css/'));
 });
 gulp.task('watch', function(){
