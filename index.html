@@ -55,7 +55,7 @@
 					</ul>
 				</div>
 				<div class="button">
-					<a href="index.html#requiest" class="btn">
+					<a href="#requiest" class="btn" id="scroller">
 						Отправить заявку
 					</a>
 					<img class="arrow" src="img/arrow.png" alt="Стрелка">
@@ -174,7 +174,7 @@
 					ЗАЯВКУ ОНЛАЙН
 				</div>
 				<div class="requiest">
-					<a href="index.html#requiest" class="button">ОТПРАВИТЬ ЗАЯВКУ</a>
+					<a href="#requiest" id="scroller2" class="button">ОТПРАВИТЬ ЗАЯВКУ</a>
 					<div class="arrow">
 						<img src="../img/arrow2.png" alt="Стрелка">
 					</div>
@@ -311,7 +311,7 @@
 					<div class="arrow">
 						<img src="../img/arrow2.png" alt="Стрелка">
 					</div>
-					<a href="index.html#requiest" class="button">ОТПРАВИТЬ ЗАЯВКУ</a>
+					<a href="#requiest" id="scroller3" class="button">ОТПРАВИТЬ ЗАЯВКУ</a>
 				</div>
 			</div>
 		</div>
@@ -343,5 +343,24 @@
 			</div>
 		</div>
 	</section>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(function(){
+				$('#scroller').on('click', function(e){
+				  $('html,body').stop().animate({ scrollTop: $('#request').offset().top }, 1000);
+				  e.preventDefault();
+				});
+				$('#scroller2').on('click', function(e){
+				  $('html,body').stop().animate({ scrollTop: $('#request').offset().top }, 1000);
+				  e.preventDefault();
+				});
+				$('#scroller3').on('click', function(e){
+				  $('html,body').stop().animate({ scrollTop: $('#request').offset().top }, 1000);
+				  e.preventDefault();
+				});
+			});
+		});
+	</script>
 </body>
 </html>
