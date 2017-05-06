@@ -12,6 +12,7 @@ body, html{
 		background-repeat: no-repeat;
 		background-position: center top;
 		background-size: cover;
+		min-height: 865px;
 		.container-1120{
 			.header{
 				border-bottom: 1px solid #fff;
@@ -90,6 +91,7 @@ body, html{
 					flex-direction: column;
 					justify-content: center;
 					align-items: center;
+					margin-top: 7rem;
 					.btn{
 						display: block;
 						text-decoration: none;
@@ -107,6 +109,9 @@ body, html{
 					    transition-duration: 0.6s;
 					    transition-timing-function: ease;
 					    width: 300px;
+					    &:hover{
+					    	background-color: darken(#39b54a, 15%);
+					    }
 					}
 					.arrow{
 						width: 90px;
@@ -243,14 +248,18 @@ body, html{
 					    font-size: 20px;
 					    font-weight: 700;
 					    line-height: 56px;
-					    margin-top: 7px;
 					    min-height: 60px;
 					    text-align: center;
 					    text-decoration: none;
+					    transition: all 0.6s;
+					    &:hover{
+					    	background-color: darken(#ff4a00, 15%);
+					    }
 					}
 					.arrow{
 						img{
-							transform: rotate(-90deg);
+							transform: rotate(-125deg);
+							float: right;
 						}
 					}
 				}
@@ -378,7 +387,7 @@ body, html{
 		.bg{
 			min-height: 450px;
 			background-image: url("../img/3.png");
-			background-position: center bottom;
+			background-position: center;
 			background-size: cover;
 			.container-960{
 				display: flex;
@@ -401,7 +410,9 @@ body, html{
 				.requiest{
 					align-self: flex-end;
 					width: 30%;
-					// margin-top: 2rem;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
 					a{
 						display: block;
 						background-color: #ff4a00;
@@ -411,14 +422,18 @@ body, html{
 					    font-size: 20px;
 					    font-weight: 700;
 					    line-height: 56px;
-					    margin-top: 7px;
 					    min-height: 60px;
 					    text-align: center;
 					    text-decoration: none;
+					    transition: all 0.6s;
+					    &:hover{
+					    	background-color: darken(#ff4a00, 15%);
+					    }
 					}
 					.arrow{
 						img{
 							transform: rotate(90deg);
+							float: right;
 						}
 					}
 				}
